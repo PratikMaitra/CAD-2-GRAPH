@@ -1,0 +1,7 @@
+entity.dxftype -> entity.dxftype()
+entity.layer -> entity.dxf.layer()
+points -> points().__enter__
+
+hsptial dxf, def get_all_roomlabels(self), /int(self.step_size/GRID_RATIO) -> /math.ceil(self.step_size/GRID_RATIO))
+extract_grid_from_dxf, get_grid, grid_size = math.ceil(dxf_to_graph.step_size/GRID_RATIO)
+math.ceil instead of int
